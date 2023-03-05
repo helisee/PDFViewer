@@ -90,6 +90,7 @@ namespace Xewter
             int imageWidth = pdfWidth * pdfsOnOneSheet;
             int imageHeight = CalcImageHeightFromWidth(imageWidth);
 
+            int robin = 0;
 
             ImageSource imageSource = null;
             Image pdfRendererImage;
